@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .inputfile {
+        @apply w-[0.1px] h-[0.1px] opacity-0 overflow-hidden absolute z-[-1]
+    }
+
+    .glassmorphism {
+        @apply h-full w-full bg-gray-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20
+    }
+
+}
